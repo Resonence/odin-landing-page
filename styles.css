@@ -1,0 +1,114 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+/* Header Section */
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding-top: 10px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.right-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Encompasses all sections */
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Top Section */
+.section-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.section-top-left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+.main-txt{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.secondary-txt{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.shiba-img{
+    width: 376px;
+    height: 251px;
+    border-radius: 10px;
+}
+
+.button1{
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* Random Information Section */
+
+
+
+
+/* Quote Section */
+.quote{
+    background-color: #E5E7EB;
+}
+
+
+
+/* Sign-Up Section */
+
+
+
+
+/* Footer Section */
+footer{
+    background-color: #1F2937;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}

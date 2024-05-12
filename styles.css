@@ -30,7 +30,12 @@ body{
     gap: 30px;
     list-style: none;
     font-size: 18px;
-    color: #E5E7EB;
+    
+}
+
+.nav-bar-links{
+ text-decoration: none;
+ color: #E5E7EB;
 }
 
 /* Encompasses all sections */
@@ -38,7 +43,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 
 
 /* Top Section */
@@ -136,8 +140,8 @@ figcaption{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    align-self: center;
 }
-
 .quote-author{
     text-align: end;
     font-size: 30px;
@@ -145,13 +149,46 @@ figcaption{
 }
 /* Sign-Up Section */
 
-
-
-
-/* Footer Section */
-footer{
-    background-color: #1F2937;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
+.sign-up{
+    display: flex;
+    padding: 80px 20%;
+    justify-content: center;
 }
+
+.blue-area{
+    display: flex;
+    border-radius:10px;
+    background-color: #3882F6;
+    padding: 40px 100px 40px 100px;
+    gap: 75px;
+}
+
+.call-to{
+    color: #F9FAF8;
+    margin: 5px;
+    padding: 3px;
+}
+
+.blue-area-btn{
+    align-self: center;
+}
+
+.button2{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    
+    cursor: pointer;
+}
+/* Footer Section */
+.footer1{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
